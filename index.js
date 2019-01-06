@@ -11,7 +11,18 @@ function johnLennonFacts(facts){
   let i = 0;
   while(i < facts.length){
     aboutJohn.push(`${facts[i]}!!!`);
-    i++
+    i++;
   }
   return aboutJohn;
+}
+
+function iLoveTheBeatles(x: number[]){
+  var beatlesLove = [];
+  let i = 15 - x;
+  do {
+    beatlesLove.push("I love the Beatles!");
+    i++;
+  }
+  while(i < 15)
+  return beatlesLove
 }
