@@ -8,3 +8,5 @@ function theBeatlesPlay(who, what){
 }
   return theBeatlesInstruments;
 }
+
+var theBeatles = theBeatlesPlay(musicians, instruments);
