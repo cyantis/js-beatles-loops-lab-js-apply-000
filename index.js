@@ -13,4 +13,5 @@ function johnLennonFacts(facts){
     aboutJohn.push(`${facts[i]}!!!`);
     i++
   }
+  return aboutJohn;
 }
