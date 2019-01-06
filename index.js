@@ -8,7 +8,7 @@ function theBeatlesPlay(who, what){
 
 function johnLennonFacts(facts){
   var aboutJohn = [];
-  var i = 0;
+  let i = 0;
   while(i < facts.length){
     aboutJohn.push(`${facts[i]}!!!`);
     i++
