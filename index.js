@@ -8,4 +8,4 @@ function theBeatlesPlay(who, what){
   return theBeatlesInstruments;
 }
 
-//var theBeatles = theBeatlesPlay(musicians, instruments);
+var theBeatles = theBeatlesPlay(musicians, instruments);
