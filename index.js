@@ -23,6 +23,6 @@ function iLoveTheBeatles(x: number[]){
     beatlesLove.push("I love the Beatles!");
     i++;
   }
-  while(i < 15)
-  return beatlesLove
+  while(i < 15);
+  return beatlesLove;
 }
