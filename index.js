@@ -3,7 +3,7 @@ const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 
 function theBeatlesPlay(who, what){
   var theBeatlesInstruments = [];
-  for(let i = 0; counter < musicians.length; i ++){
+  for(var i = 0; counter < musicians.length; i ++){
     theBeatlesInstruments.push(who[i] + " plays the " + what[i]);
 }
   return theBeatlesInstruments;
