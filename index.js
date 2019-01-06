@@ -5,3 +5,10 @@ function theBeatlesPlay(who, what){
 }
   return theBeatlesInstruments;
 }
+
+function johnLennonFacts(facts){
+  var aboutJohn = [];
+  while(i < facts.length){
+    aboutJohn.push(`${facts[i]}!!!`);
+  }
+}
