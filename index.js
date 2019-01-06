@@ -1,5 +1,5 @@
 function theBeatlesPlay(who, what){
-  const theBeatlesInstruments = [];
+  var theBeatlesInstruments = [];
   for(let i = 0; i < who.length; i ++){
     theBeatlesInstruments.push(`${who[i]} plays ${what[i]}`);
 }
@@ -7,8 +7,8 @@ function theBeatlesPlay(who, what){
 }
 
 function johnLennonFacts(facts){
-  const aboutJohn = [];
-  while(i < facts.length){
+  var aboutJohn = [];
+  while(var i < facts.length){
     aboutJohn.push(`${facts[i]}!!!`);
   }
 }
